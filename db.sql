@@ -11,7 +11,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Datenbank: `shoe`
+# Datenbank: `junior2_shoe`
 --
 
 -- --------------------------------------------------------
@@ -20,18 +20,18 @@ SET time_zone = "+00:00";
 -- Tabellenstruktur für Tabelle `book`
 --
 
-CREATE TABLE `book` (
-                        `id` int(11) NOT NULL,
-                        `article` varchar(255) NOT NULL,
-                        `nom` varchar(255) NOT NULL,
-                        `message` varchar(255) NOT NULL
+CREATE TABLE `junior2_book` (
+                        `junior2_id` int(11) NOT NULL,
+                        `junior2_article` varchar(255) NOT NULL,
+                        `junior2_nom` varchar(255) NOT NULL,
+                        `junior2_message` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Daten für Tabelle `book`
+-- Daten für Tabelle `junior2_book`
 --
 
-INSERT INTO `book` (`id`, `article`, `nom`, `message`) VALUES
+INSERT INTO `junior2_book` (`junior2_id`, `junior2_article`, `junior2_nom`, `junior2_message`) VALUES
 (2, ' sandalin', 'Rakeal', 'Sombre et cool'),
 (3, ' vulc', 'bran', 'Tres jolie'),
 (4, ' Redbids', 'berlin', 'cool'),
@@ -40,19 +40,19 @@ INSERT INTO `book` (`id`, `article`, `nom`, `message`) VALUES
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `category`
+-- Tabellenstruktur für Tabelle `junior2_category`
 --
 
-CREATE TABLE `category` (
-                            `id` int(11) NOT NULL,
-                            `nom` varchar(255) NOT NULL
+CREATE TABLE `junior2_category` (
+                            `junior2_id` int(11) NOT NULL,
+                            `junior2_nom` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Daten für Tabelle `category`
+-- Daten für Tabelle `junior2_category`
 --
 
-INSERT INTO `category` (`id`, `nom`) VALUES
+INSERT INTO `junior2_category` (`junior2_id`, `junior2_nom`) VALUES
 (27, 'schuhe'),
 (28, 'armband'),
 (29, 'ketten');
@@ -63,17 +63,17 @@ INSERT INTO `category` (`id`, `nom`) VALUES
 -- Tabellenstruktur für Tabelle `loginn`
 --
 
-CREATE TABLE `loginn` (
-                          `id` int(11) NOT NULL,
-                          `nom` varchar(255) NOT NULL,
-                          `passworde` varchar(255) NOT NULL
+CREATE TABLE `junior2_login` (
+                          `junior2_id` int(11) NOT NULL,
+                          `junior2_nom` varchar(255) NOT NULL,
+                          `junior2_password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Daten für Tabelle `loginn`
+-- Daten für Tabelle `junior2_login`
 --
 
-INSERT INTO `loginn` (`id`, `nom`, `passworde`) VALUES
+INSERT INTO `junior2_login` (`junior2_id`, `junior2_nom`, `junior2_password`) VALUES
 (1, '0', '63'),
 (2, 'jane', '63a9f0ea7bb98050796b649e85481845'),
 (3, 'kelly', 'ae074a5692dfb7c26aae5147e52ceb40'),
@@ -84,22 +84,22 @@ INSERT INTO `loginn` (`id`, `nom`, `passworde`) VALUES
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `product`
+-- Tabellenstruktur für Tabelle `junior2_product`
 --
 
-CREATE TABLE `product` (
-                           `id` int(11) NOT NULL,
-                           `nom` varchar(255) NOT NULL,
-                           `prix` varchar(255) NOT NULL,
-                           `pic` varchar(255) NOT NULL,
-                           `cat` varchar(255) NOT NULL
+CREATE TABLE `junior2_product` (
+                           `junior2_id` int(11) NOT NULL,
+                           `junior2_nom` varchar(255) NOT NULL,
+                           `junior2_prix` varchar(255) NOT NULL,
+                           `junior2_pic` varchar(255) NOT NULL,
+                           `junior2_cat` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Daten für Tabelle `product`
 --
 
-INSERT INTO `product` (`id`, `nom`, `prix`, `pic`, `cat`) VALUES
+INSERT INTO `junior2_product` (`junior2_id`, `junior2_nom`, `junior2_prix`, `junior2_pic`, `junior2_cat`) VALUES
 (9, 'bale', '300', 'photo.jpeg', 'luxx'),
 (14, 'sandis', '250', 'photo2.jpeg', 'Simple'),
 (15, 'luxx', '467', '9.jpg', 'classic,luxx'),
@@ -124,28 +124,28 @@ INSERT INTO `product` (`id`, `nom`, `prix`, `pic`, `cat`) VALUES
 --
 
 --
--- Indizes für die Tabelle `book`
+-- Indizes für die Tabelle `junior2_book`
 --
-ALTER TABLE `book`
-    ADD PRIMARY KEY (`id`);
+ALTER TABLE `junior2_book`
+    ADD PRIMARY KEY (`junior2_id`);
 
 --
 -- Indizes für die Tabelle `category`
 --
-ALTER TABLE `category`
-    ADD PRIMARY KEY (`id`);
+ALTER TABLE `junior2_category`
+    ADD PRIMARY KEY (`junior2_id`);
 
 --
 -- Indizes für die Tabelle `loginn`
 --
-ALTER TABLE `loginn`
-    ADD PRIMARY KEY (`id`);
+ALTER TABLE `junior2_login`
+    ADD PRIMARY KEY (`junior2_id`);
 
 --
 -- Indizes für die Tabelle `product`
 --
-ALTER TABLE `product`
-    ADD PRIMARY KEY (`id`);
+ALTER TABLE `junior2_product`
+    ADD PRIMARY KEY (`junior2_id`);
 
 --
 -- AUTO_INCREMENT für exportierte Tabellen
@@ -154,23 +154,23 @@ ALTER TABLE `product`
 --
 -- AUTO_INCREMENT für Tabelle `book`
 --
-ALTER TABLE `book`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+ALTER TABLE `junior2_book`
+    MODIFY `junior2_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT für Tabelle `category`
 --
-ALTER TABLE `category`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+ALTER TABLE `junior2_category`
+    MODIFY `junior2_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT für Tabelle `loginn`
 --
-ALTER TABLE `loginn`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+ALTER TABLE `junior2_login`
+    MODIFY `junior2_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT für Tabelle `product`
 --
-ALTER TABLE `product`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+ALTER TABLE `junior2_product`
+    MODIFY `junior2_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
