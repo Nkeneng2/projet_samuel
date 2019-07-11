@@ -9,14 +9,14 @@ include "layout.php";
             <?php
             $id = $_GET['id'];
             if ($id > 0) {
-                $query = "SELECT * FROM product WHERE id = '$id'";
+                $query = "SELECT * FROM junior2_product WHERE junior2_id = '$id'";
                 $result = mysqli_query($db, $query);
                 while ($row = mysqli_fetch_assoc($result)) {
                     $array[] = $row; ?>
                     <input type="text" name="nom" class="form" placeholder="Genen Sie den name ein"
-                           value="<?php echo $row['nom']; ?>" required>
+                           value="<?php echo $row['junior2_nom']; ?>" required>
                     <input type="number" name="prix" class="form" placeholder="Geben Sie der Preis ein"
-                           value="<?php echo $row['prix']; ?>" required/><br/>
+                           value="<?php echo $row['junior2_prix']; ?>" required/><br/>
                     <input type="hidden" name="id" value="<?php echo $id; ?>">
                     <br/>
                     <p>Bild</p>
@@ -26,13 +26,13 @@ include "layout.php";
                 }
             }
             ?>
-            <?php $query = "SELECT * FROM category ORDER BY id desc";
+            <?php $query = "SELECT * FROM junior2_category ORDER BY junior2_id desc";
             $result = mysqli_query($db, $query);
             while ($row = mysqli_fetch_assoc($result)) {
                 $array[] = $row;
                 ?>
                 <input type="checkbox" name="insert[]" class="get_value"  id="cat"
-                       value=<?php echo $row['nom']; ?>/><?php echo $row['nom']; ?><br/>
+                       value=<?php echo $row['junior2_nom']; ?>/><?php echo $row['junior2_nom']; ?><br/>
                 <?php
             } ?>
             <br/><br/><br/>

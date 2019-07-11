@@ -5,7 +5,7 @@ if (isset($_POST['cat'])) {
     $nom = $db->real_escape_string($_POST['cat']);
 
 
-    $sql = "INSERT INTO  category(nom) VALUES ('$nom') ";
+    $sql = "INSERT INTO  junior2_category(junior2_nom) VALUES ('$nom') ";
 
     if (mysqli_query($db, $sql)) {
 

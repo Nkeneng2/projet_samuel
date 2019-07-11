@@ -54,7 +54,7 @@
             <?php
         
             //afiicher la liste des categorie apparti de la base de donner
-            $query="SELECT * FROM book ORDER BY id desc";
+            $query="SELECT * FROM junior2_book ORDER BY junior2_id desc";
             $result=mysqli_query($db,$query);
             while ($row = mysqli_fetch_assoc($result)) {
                 $array[] = $row; 
@@ -62,12 +62,12 @@
             ?>
         
                 <tr a >
-                    <td><?php echo $row['article']?> </td>
-                    <td><?php echo $row['nom']?></td>
-                    <td><?php echo $row['message']?></td>
+                    <td><?php echo $row['junior2_article']?> </td>
+                    <td><?php echo $row['junior2_nom']?></td>
+                    <td><?php echo $row['junior2_message']?></td>
 
                     <!---Redirection ver la page  de supprimer categorie----------->
-                    <td>    <?php echo "<a href='supprime_reserver.php?id=".$row['id']."' onclick='return checkDelete()'><button class='sub' type='submit' > Supprimer</button></a> ";?></td>
+                    <td>    <?php echo "<a href='supprime_reserver.php?id=".$row['junior2_id']."' onclick='return checkDelete()'><button class='sub' type='submit' > Supprimer</button></a> ";?></td>
             
                     <br/><br/>
 

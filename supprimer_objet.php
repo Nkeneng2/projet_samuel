@@ -12,7 +12,7 @@ include("bd.php");
 
 $id = $_POST['key'];
 if ($id > 0) {
-    $query = "DELETE FROM `product` WHERE `ID` = $id";
+    $query = "DELETE FROM `junior2_product` WHERE `junior2_ID` = $id";
     if (mysqli_query($db, $query)) {
         mysqli_close($db);
         header('Location: index.php?type=success&nachricht=Produkt-erfolgreich-gelöscht');

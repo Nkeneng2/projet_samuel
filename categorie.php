@@ -23,7 +23,7 @@ include("layout.php");
         </thead>
         <tbody>
         <?php
-        $query = "SELECT * FROM category ORDER BY id desc";
+        $query = "SELECT * FROM junior2_category ORDER BY junior2_id desc";
         $result = mysqli_query($db, $query);
         while ($row = mysqli_fetch_assoc($result)) {
         $array[] = $row;
@@ -31,14 +31,14 @@ include("layout.php");
         ?>
 
         <tr a>
-            <td><?php echo $row['id'] ?> </td>
-            <td><?php echo $row['nom'] ?></td>
+            <td><?php echo $row['junior2_id'] ?> </td>
+            <td><?php echo $row['junior2_nom'] ?></td>
 
             <!---Redirection ver la page  de modifier categori----------->
-            <td> <?php echo "<a href='modifier_categorie.php?id=" . $row['id'] . "'><button class='su' type='submit' > Bearbeiten</button></a>"; ?></td>
+            <td> <?php echo "<a href='modifier_categorie.php?id=" . $row['junior2_id'] . "'><button class='su' type='submit' > Bearbeiten</button></a>"; ?></td>
 
             <!---Redirection ver la page  de supprimer categorie----------->
-            <td>    <?php echo "<a href='supprime_categorie.php?id=" . $row['id'] . "' onclick='return checkDelete()'><button class='sub' type='submit' > Löschen</button></a> "; ?></td>
+            <td>    <?php echo "<a href='supprime_categorie.php?id=" . $row['junior2_id'] . "' onclick='return checkDelete()'><button class='sub' type='submit' > Löschen</button></a> "; ?></td>
 
             <br/><br/>
 

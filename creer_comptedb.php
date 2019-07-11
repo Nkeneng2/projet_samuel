@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       $nom =$db -> real_escape_string($_POST['nom']);
   
        $password =md5($_POST['passworde']);
-       $query="INSERT INTO loginn (nom,passworde)" . "VALUES ('$nom','$password' ) " ;
+       $query="INSERT INTO junior2_login (junior2_nom,junior2_password)" . "VALUES ('$nom','$password' ) " ;
 
        if ($db->query($query) === true ) {
             $_SESSION['message']= " Enregistrement reussi! ";

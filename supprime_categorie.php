@@ -5,7 +5,7 @@
    $id = $_GET['id'];
     if($id>0){
       
-      $query = "DELETE FROM `category` WHERE `ID` = $id";
+      $query = "DELETE FROM `junior2_category` WHERE `junior2_ID` = $id";
       if (mysqli_query($db, $query)) {
       mysqli_close($db);
         echo "connexion a la base de donner reussi. Categorie Supprimer";

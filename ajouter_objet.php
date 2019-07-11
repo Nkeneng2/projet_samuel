@@ -19,13 +19,13 @@ include("layout.php");
 
             <!----   afficher categorie  sur form de checkbox apparti de la base de donner       ---------->
             <?php
-            $query = "SELECT * FROM category ORDER BY id desc";
+            $query = "SELECT * FROM junior2_category ORDER BY junior2_id desc";
             $result = mysqli_query($db, $query);
             while ($row = mysqli_fetch_assoc($result)) {
                 $array[] = $row;
                 ?>
                 <input type="checkbox" name="insert[]" class="get_value"  id="cat"
-                       value=<?php echo $row['nom']; ?> /><?php echo $row['nom']; ?><br/>
+                       value=<?php echo $row['junior2_nom']; ?> /><?php echo $row['junior2_nom']; ?><br/>
 
             <?php } ?>
             <br>

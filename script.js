@@ -8,7 +8,7 @@ function  produktentfernen(key) {
             key: key
         },
         success: function (response) {
-            history.pushState({}, "", "http://localhost:8888/projet_2/")
+            // history.pushState({}, "", "http://localhost:8888/projet_samuel/");
             // alert(response);
             $("#page").html(response);
         }

@@ -14,14 +14,14 @@ include("bd.php");
                $password = md5($_POST['passworde']);
                // $password = sha1($_POST['passworde']);
 
-               $query="SELECT ID, nom, passworde FROM loginn where  nom='$nom' AND passworde='$password' LIMIT 1 ";
+               $query="SELECT junior2_ID, junior2_nom, junior2_password FROM junior2_login where  junior2_nom='$nom' AND junior2_password='$password' LIMIT 1 ";
 
                $result=mysqli_query($db, $query) or die(mysqli_error($db));
                if ($row = mysqli_fetch_assoc($result)) {
                    $array[] = $row;
            
                    $_SESSION['login']=$nom; // hold the user name in session
-                     $_SESSION['id']=$row['ID']; // hold the user id in session
+                     $_SESSION['id']=$row['junior2_ID']; // hold the user id in session
                      $uip=$_SERVER['REMOTE_ADDR']; // get the user ip
                      $id=$_SESSION['id'];
 

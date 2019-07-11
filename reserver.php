@@ -47,12 +47,12 @@
            echo $error;
           $id = $_GET['id'];
           if ($id>0) {
-              $query="SELECT nom FROM product WHERE id = '$id'";
+              $query="SELECT nom FROM junior2_product WHERE junior2_id = '$id'";
               $result=mysqli_query($db, $query);
               while ($row = mysqli_fetch_assoc($result)) {
                   $array[] = $row; ?>
             <label for="nm"><b>Article :</b></label>
-                <input type="text" placeholder=" " name="article" id="pass" value=" <?php echo $row['nom']; ?>" required>
+                <input type="text" placeholder=" " name="article" id="pass" value=" <?php echo $row['junior2_nom']; ?>" required>
                <br/> <br/>
               
             <?php

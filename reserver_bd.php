@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $message=$db -> real_escape_string($_POST['message']);
   
        
-            $query="INSERT INTO book (article,nom,message)" . "VALUES ('$article','$nom','$message' ) " ;
+            $query="INSERT INTO junior2_book (junior2_article,junior2_nom,junior2_message)" . "VALUES ('$article','$nom','$message' ) " ;
             if ($db->query($query) === true) {
                 $_SESSION['message']= " Enregistrement reussi! ";
 
