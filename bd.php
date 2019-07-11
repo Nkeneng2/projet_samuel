@@ -4,7 +4,7 @@
 //define('DB_nom', 's0548016');
 //define('DB_PASSWORD', 'samuelnoe24');
 //define('DB_DATABASE', 'shoe');
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'localho');
 define('DB_nom', 'root');
 define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'shoe');
