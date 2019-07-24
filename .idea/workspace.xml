@@ -1,111 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee68ecb-1af9-41f2-9563-2be799f814c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajout_objetdb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ajouter_categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_categoriedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ajouter_categoriedb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ajouter_objet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothes-shop-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/clothes-shop-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_ajoutobjet.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/connect_ajoutobjet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexiondb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/connexiondb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creer_compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/creer_compte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creer_comptedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/creer_comptedb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/checkdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/geo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/geo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/deconnect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filtre.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/filtre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filtre_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/filtre_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geolocalise.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/geolocalise.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/impressum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontaktformular.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/kontaktformular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liste_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/liste_reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifcatdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modifcatdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifier_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifier_categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifier_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifier_objet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifier_objetdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modifier_objetdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produkt-bearbeiten.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/produkt-bearbeiten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produkt-hinzufügen.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/produkt-hinzufügen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserver_bd.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/reserver_bd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicework_site.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/servicework_site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprime_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprime_categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprime_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprime_reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprimer_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprimer_objet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/80.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/81.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/82.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/83.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/84.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/85.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/86.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/87.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/88.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/photo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/photo2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/photo3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/photo4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/über uns.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/über uns.php" afterDir="false" />
-    </list>
+    <list default="true" id="5ee68ecb-1af9-41f2-9563-2be799f814c1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,16 +14,25 @@
         <entry file="file://$PROJECT_DIR$/frontend/filtre.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/filtre_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/filtre_db.php">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="14">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -295,22 +200,21 @@
       <workItem from="1562877706961" duration="1441000" />
       <workItem from="1562881927143" duration="4135000" />
       <workItem from="1562886773920" duration="1683000" />
-      <workItem from="1563996972429" duration="4439000" />
+      <workItem from="1563996972429" duration="4722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11698000" />
+    <option name="totallyTimeSpent" value="11981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17944536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.09447415" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35650623" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -319,7 +223,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3957219" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.09982175" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32976827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -333,9 +237,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/script/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/script/servicework_site.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -564,14 +465,21 @@
     <entry file="file://$PROJECT_DIR$/frontend/filtre.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/filtre_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="72">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
