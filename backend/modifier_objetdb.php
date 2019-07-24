@@ -11,7 +11,7 @@ class checkbox extends connectionClass
             $querry = "UPDATE junior2_product SET junior2_nom='$nom', junior2_prix='$prix', junior2_pic='$name', junior2_cat='$value' WHERE junior2_id = '$id'";
             $result = $this->query($querry) or die($this->error);
             if ($result) {
-                header('location: index.php');
+                header('location: ../frontend/index.php');
             } else {
                 return "Veuillez reessayer!, connexion a la base de donner interrompue";
             }

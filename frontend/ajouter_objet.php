@@ -5,7 +5,7 @@ include("layout.php");
 <br/> <br/> <br/> <br/> <br/> <br/>
 <h2 align="center">Produkt hinzufügen</h2>
     <div class="container">
-        <form action="produkt-hinzufügen.php" method="post" enctype='multipart/form-data'>
+        <form action="../backend/produkt-hinzufügen.php" method="post" enctype='multipart/form-data'>
             <!--                    <label for="fname">Vorname</label>-->
             <input type="text" name="nom" placeholder="Name des Produktes" required>
 
@@ -37,4 +37,4 @@ include("layout.php");
 
 <br/> <br/> <br/> <br/> <br/>
 
-<?php include "footer.php"?>
+<?php include "footer.php" ?>

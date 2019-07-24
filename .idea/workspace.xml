@@ -2,28 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ee68ecb-1af9-41f2-9563-2be799f814c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_categoriedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajouter_categoriedb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajouter_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajouter_objet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd.php" beforeDir="false" afterPath="$PROJECT_DIR$/bd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_ajoutobjet.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect_ajoutobjet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexiondb.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexiondb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creer_comptedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/creer_comptedb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filtre_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/filtre_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liste_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/liste_reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifcatdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifcatdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifier_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifier_objet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifier_objetdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifier_objetdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.php" beforeDir="false" afterPath="$PROJECT_DIR$/research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserver_bd.php" beforeDir="false" afterPath="$PROJECT_DIR$/reserver_bd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprime_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/supprime_categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprime_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/supprime_reserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supprimer_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/supprimer_objet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajout_objetdb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajouter_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ajouter_categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajouter_categoriedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ajouter_categoriedb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajouter_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ajouter_objet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothes-shop-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/clothes-shop-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_ajoutobjet.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/connect_ajoutobjet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connexiondb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/connexiondb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creer_compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/creer_compte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creer_comptedb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/creer_comptedb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/checkdb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/geo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/geo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/deconnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filtre.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/filtre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filtre_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/filtre_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geolocalise.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/geolocalise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/photo4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/impressum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/kontakt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontaktformular.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/kontaktformular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liste_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/liste_reserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifcatdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modifcatdb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifier_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifier_categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifier_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifier_objet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifier_objetdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modifier_objetdb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-bearbeiten.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/produkt-bearbeiten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-hinzufügen.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/produkt-hinzufügen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/research.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/reserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserver_bd.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/reserver_bd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicework_site.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/script/servicework_site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supprime_categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprime_categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supprime_reserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprime_reserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supprimer_objet.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/supprimer_objet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/80.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/81.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/82.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/83.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/84.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/88.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/photo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/photo2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/photo3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/photo4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/upload/photo4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/über uns.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/über uns.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +113,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/filtre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/filtre_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>junior_</find>
+      <find>frontend</find>
     </findStrings>
     <replaceStrings>
       <replace>junior2_</replace>
@@ -58,7 +159,6 @@
         <option value="$PROJECT_DIR$/supprime_categorie.php" />
         <option value="$PROJECT_DIR$/supprime_reserver.php" />
         <option value="$PROJECT_DIR$/supprimer_objet.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/reserver.php" />
         <option value="$PROJECT_DIR$/research.php" />
         <option value="$PROJECT_DIR$/modifier_objet.php" />
@@ -70,6 +170,35 @@
         <option value="$PROJECT_DIR$/ajouter_categoriedb.php" />
         <option value="$PROJECT_DIR$/filtre_db.php" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/backend/supprime_categorie.php" />
+        <option value="$PROJECT_DIR$/backend/ajouter_categoriedb.php" />
+        <option value="$PROJECT_DIR$/backend/connexiondb.php" />
+        <option value="$PROJECT_DIR$/backend/creer_comptedb.php" />
+        <option value="$PROJECT_DIR$/backend/modifcatdb.php" />
+        <option value="$PROJECT_DIR$/backend/modifier_objetdb.php" />
+        <option value="$PROJECT_DIR$/backend/reserver_bd.php" />
+        <option value="$PROJECT_DIR$/backend/supprime_reserver.php" />
+        <option value="$PROJECT_DIR$/backend/supprimer_objet.php" />
+        <option value="$PROJECT_DIR$/frontend/geolocalise.php" />
+        <option value="$PROJECT_DIR$/frontend/ajouter_objet.php" />
+        <option value="$PROJECT_DIR$/frontend/connect_ajoutobjet.php" />
+        <option value="$PROJECT_DIR$/frontend/connexion.php" />
+        <option value="$PROJECT_DIR$/frontend/creer_compte.php" />
+        <option value="$PROJECT_DIR$/backend/deconnect.php" />
+        <option value="$PROJECT_DIR$/frontend/filtre.php" />
+        <option value="$PROJECT_DIR$/frontend/layout.php" />
+        <option value="$PROJECT_DIR$/frontend/liste_reserver.php" />
+        <option value="$PROJECT_DIR$/frontend/modifier_objet.php" />
+        <option value="$PROJECT_DIR$/frontend/reserver.php" />
+        <option value="$PROJECT_DIR$/frontend/research.php" />
+        <option value="$PROJECT_DIR$/backend/connect_ajoutobjet.php" />
+        <option value="$PROJECT_DIR$/frontend/index.php" />
+        <option value="$PROJECT_DIR$/Assets/script/script.js" />
+        <option value="$PROJECT_DIR$/frontend/footer.php" />
+        <option value="$PROJECT_DIR$/frontend/categorie.php" />
+        <option value="$PROJECT_DIR$/backend/filtre_db.php" />
+        <option value="$PROJECT_DIR$/frontend/filtre_db.php" />
       </list>
     </option>
   </component>
@@ -84,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,10 +220,32 @@
               <item name="junior2" type="b2602c69:ProjectViewProjectNode" />
               <item name="junior2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="junior2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junior2" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junior2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junior2" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junior2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junior2" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junior2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junior2" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,7 +259,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/Assets" />
+      <recent name="$PROJECT_DIR$/Assets/css" />
+      <recent name="$PROJECT_DIR$/Assets/script" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,21 +294,23 @@
       <updated>1562877705616</updated>
       <workItem from="1562877706961" duration="1441000" />
       <workItem from="1562881927143" duration="4135000" />
-      <workItem from="1562886773920" duration="175000" />
+      <workItem from="1562886773920" duration="1683000" />
+      <workItem from="1563996972429" duration="4439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5751000" />
+    <option name="totallyTimeSpent" value="11698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593801" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17944536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.09447415" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -158,253 +319,259 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3957219" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3957219" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32976827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.32952693" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.079934746" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/Assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/geolocalise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-758" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impressum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kontakt.php">
+    <entry file="file://$PROJECT_DIR$/Assets/script/servicework_site.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kontaktformular.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Assets/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/reserver_bd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Assets/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/session.php">
+    <entry file="file://$PROJECT_DIR$/Assets/img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/img/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/supprime_categorie.php">
+    <entry file="file://$PROJECT_DIR$/Assets/upload/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/upload/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/ajouter_objet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="-104">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supprime_reserver.php">
+    <entry file="file://$PROJECT_DIR$/frontend/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supprimer_objet.php">
+    <entry file="file://$PROJECT_DIR$/backend/deconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="252">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/über uns.php">
+    <entry file="file://$PROJECT_DIR$/frontend/creer_compte.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="109" selection-start-line="54" selection-start-column="109" selection-end-line="54" selection-end-column="109" />
+        <state relative-caret-position="315">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/produkt-bearbeiten.php">
+    <entry file="file://$PROJECT_DIR$/frontend/geolocalise.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modifier_objetdb.php">
+    <entry file="file://$PROJECT_DIR$/frontend/impressum.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="337">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modifier_objet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifier_categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifcatdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liste_reserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="69" column="90" selection-start-line="69" selection-start-column="90" selection-end-line="69" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filtre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deconnect.php">
+    <entry file="file://$PROJECT_DIR$/frontend/kontakt.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/creer_comptedb.php">
+    <entry file="file://$PROJECT_DIR$/frontend/kontaktformular.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-37" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/liste_reserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creer_compte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/backend/produkt-bearbeiten.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/categorie.php">
+    <entry file="file://$PROJECT_DIR$/frontend/modifier_categorie.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/modifier_objet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+        <state relative-caret-position="68">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajouter_categorie.php">
+    <entry file="file://$PROJECT_DIR$/frontend/reserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="-314">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/über uns.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/produkt-hinzufügen.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/connect_ajoutobjet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/ajout_objetdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/research.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/supprimer_objet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/supprime_categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/ajouter_categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajout_objetdb.php">
+    <entry file="file://$PROJECT_DIR$/frontend/categorie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="158">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produkt-hinzufügen.php">
+    <entry file="file://$PROJECT_DIR$/frontend/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="112">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="n#script#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_ajoutobjet.php">
+    <entry file="file://$PROJECT_DIR$/frontend/filtre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connexion.php">
+    <entry file="file://$PROJECT_DIR$/frontend/filtre_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajouter_objet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connexiondb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filtre_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajouter_categoriedb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="299">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>

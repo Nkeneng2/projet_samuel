@@ -2,16 +2,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' type='text/css' media='screen' href='css/login.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/login.css'>
 </head>
 <body background="fr.jpg">
+<?php //include "layout.php"; ?>
 <div id="resultat">
     <!-- Nous allons afficher un retour en jQuery au visiteur -->
 </div>
 
 <div class="all">
     <!--------------- Appeller la page de la base de donner de connexion -------------->
-    <?php include("connexiondb.php"); ?>
+    <?php include("../backend/connexiondb.php"); ?>
 
 
     <!------------------Formulaire de connexion ----------------->

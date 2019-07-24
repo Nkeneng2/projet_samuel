@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['login_user']= $nom;
 
             //redirection ver la page index
-            header("location: index.php");
+            header("location: ../frontend/index.php");
                 
                
         }

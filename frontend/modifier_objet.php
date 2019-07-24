@@ -4,7 +4,7 @@ include "layout.php";
     <br/> <br/> <br/> <br/> <br/> <br/>
     <h2 align="center">Produkt bearbeiten</h2>
     <div class="check">
-        <form action="produkt-bearbeiten.php" method="post" enctype='multipart/form-data'>
+        <form action="../backend/produkt-bearbeiten.php" method="post" enctype='multipart/form-data'>
             <br/>
             <?php
             $id = $_GET['id'];

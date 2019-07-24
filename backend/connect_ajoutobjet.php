@@ -13,7 +13,7 @@ class checkbox extends connectionClass
 
         if ($result) {
     //redirection ver la page index
-            header('location: index.php');
+            header('location: ../frontend/index.php');
 
         } else {
             return "Veuillez réessayez!, conexion a la base de donner interrompue";

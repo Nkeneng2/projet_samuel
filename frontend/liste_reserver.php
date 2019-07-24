@@ -1,7 +1,7 @@
 <?php 
 
      //appeler la page session
-   include("session.php");
+   include("../backend/session.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +14,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"> 
-    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/main.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link rel='stylesheet' type='text/css' media='screen' href='fonts/DM_Serif_Text'>

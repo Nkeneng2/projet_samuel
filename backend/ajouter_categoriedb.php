@@ -9,7 +9,7 @@ if (isset($_POST['cat'])) {
 
     if (mysqli_query($db, $sql)) {
 
-        header("location: categorie.php");
+        header("location: ../frontend/categorie.php");
     } else {
         echo "Veuillez réessayez, Connection a la base de donner interrompue ";
     }

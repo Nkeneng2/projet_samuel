@@ -8,7 +8,7 @@ include "layout.php";
 
 <h2>Kategorie bearbeiten</h2><br/>
 
-<form action="modifcatdb.php" method="post" enctype='multipart/form-data'>name<br/>
+<form action="../backend/modifcatdb.php" method="post" enctype='multipart/form-data'>name<br/>
     <input type="text" name="nom" class="form" placeholder="Entrez le Nom" required>
     <input type="hidden" name="id" value="<?php echo $_GET['id'];?>">
 
@@ -17,4 +17,4 @@ include "layout.php";
 </form>
 <br/> <br/> <br/> <br/> <br/>
 
-<?php include "footer.php"?>
+<?php include "footer.php" ?>

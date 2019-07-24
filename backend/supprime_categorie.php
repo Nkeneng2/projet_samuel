@@ -10,7 +10,7 @@
       mysqli_close($db);
         echo "connexion a la base de donner reussi. Categorie Supprimer";
       //redirection ver la page categorie
-      header('location: categorie.php');
+      header('location: ../frontend/categorie.php');
       exit;
       } 
       else {

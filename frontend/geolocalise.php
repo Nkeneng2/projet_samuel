@@ -4,7 +4,7 @@
     <title>Place Autocomplete</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <link rel='stylesheet' type='text/css' media='screen' href='css/geo.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/geo.css'>
   </head>
   <body>
     <div class="pac-card" id="pac-card">

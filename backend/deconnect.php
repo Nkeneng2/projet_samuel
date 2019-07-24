@@ -9,7 +9,7 @@
 
           
     //redirection ver la page index
-    header("location: index.php");
+    header("location: ../frontend/index.php");
    }
    else{
        echo "Deconnexion echouer!, Veuillez reessayer";

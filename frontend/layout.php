@@ -1,5 +1,5 @@
 <?php
-include("session.php");
+include("../backend/session.php");
 ?>
 <!DOCTYPE html>
 <html id="page" lang="fr">
@@ -12,13 +12,14 @@ include("session.php");
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/main.css'>
+    <script src='../Assets/script/main.js'></script>
 </head>
 
 <body>
 <div class="content">
     <header>
-        <img src="clothes-shop-logo.jpg">
+        <img src="../Assets/clothes-shop-logo.jpg">
     </header>
 
     <div class="nav">
@@ -39,7 +40,7 @@ include("session.php");
                 } else {
                     ?>
                     <li>
-                        <a href="deconnect.php"> logout</a> </li>
+                        <a href="../backend/deconnect.php"> logout</a> </li>
 
                     <!-- $user_check== nom de l'utilisateur connecter-------------->
                   <li>  <a href="#" class="dis">

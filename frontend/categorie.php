@@ -38,7 +38,7 @@ include("layout.php");
             <td> <?php echo "<a href='modifier_categorie.php?id=" . $row['junior2_id'] . "'><button class='su' type='submit' > Bearbeiten</button></a>"; ?></td>
 
             <!---Redirection ver la page  de supprimer categorie----------->
-            <td>    <?php echo "<a href='supprime_categorie.php?id=" . $row['junior2_id'] . "' onclick='return checkDelete()'><button class='sub' type='submit' > Löschen</button></a> "; ?></td>
+            <td>    <?php echo "<a href='../backend/supprime_categorie.php?id=" . $row['junior2_id'] . "' onclick='return checkDelete()'><button class='sub' type='submit' > Löschen</button></a> "; ?></td>
 
             <br/><br/>
 

@@ -1,4 +1,4 @@
-<?php include "layout.php"?>
+<?php include "layout.php" ?>
 <br/> <br/> <br/> <br/>
 <div class="break">
 
@@ -13,7 +13,7 @@
             ?>
 
 
-            <div class="col"><a href=""><img src='upload/<?php echo $image; ?>' class="pho"> </a>
+            <div class="col"><a href=""><img src='../Assets/upload/<?php echo $image; ?>' class="pho"> </a>
                 <div class="col-body">
                     <h4 class="col-title">
                         <div class="col-head"><a href=""><?php echo $row['junior2_nom'] ?></a>

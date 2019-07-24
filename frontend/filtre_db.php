@@ -24,7 +24,7 @@ if ($total_row > 0) {
         
                     
 		        <div class="col">
-                    <img src="upload/' . $row["junior2_pic"] . '" class="pho" />
+                    <img src="../Assets/upload/' . $row["junior2_pic"] . '" class="pho" />
                     <div class="col-body">
                         <h4 class="col-title" >
                         <div class="col-head">

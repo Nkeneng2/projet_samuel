@@ -11,7 +11,7 @@
             echo "connexion a la base de donner reussi. Reservation Supprimer";
 
             //redirection ver la page categorie
-            header('location: liste_reserver.php');
+            header('location: ../frontend/liste_reserver.php');
             exit;
        } 
        else 

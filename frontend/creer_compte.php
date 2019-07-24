@@ -3,7 +3,7 @@
 <html>
   <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel='stylesheet' type='text/css' media='screen' href='css/login.css'>
+      <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/login.css'>
   </head>
   <body background="fr.jpg">
     <div id="resultat">
@@ -12,7 +12,7 @@
 
     <div class="all" >
      <!--------------- Appeller la page de la base de donner de creation de compte -------------->
-     <?php include("creer_comptedb.php"); ?>
+     <?php include("../backend/creer_comptedb.php"); ?>
 
 
 <!------------------Formulaire de creation de compte ----------------->

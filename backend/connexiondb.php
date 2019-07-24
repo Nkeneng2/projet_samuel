@@ -28,7 +28,7 @@ include("bd.php");
                    $_SESSION['login_user']= $nom;
 
                    //redirection ver la page index
-                   header("location: index.php");
+                   header("location: ../frontend/index.php");
                    $error=" Mot de passe ou pseudo correct";
                } else {
                    // $error = '';

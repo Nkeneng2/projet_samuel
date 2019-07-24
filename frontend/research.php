@@ -13,7 +13,7 @@ $result = mysqli_query($db, $query);
 if ($row = mysqli_fetch_assoc($result)) {
     $array[] = $row;
     $image = $row['junior2_pic']; ?>
-    <div class="col"><a href=""><img src='upload/<?php echo $image; ?>' class="pho"> </a>
+    <div class="col"><a href=""><img src='../Assets/upload/<?php echo $image; ?>' class="pho"> </a>
         <div class="col-body">
             <h4 class="col-title">
                 <div class="col-head"><a href=""><?php echo $row['junior2_nom'] ?></a> <?php echo $row['junior2_prix'] ?> €</div>

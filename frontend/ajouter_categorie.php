@@ -3,7 +3,7 @@ include "layout.php";
 ?>
 <br/> <br/> <br/> <br/> <br/> <br/>
 
-<form action="ajouter_categoriedb.php" method="post" enctype='multipart/form-data'>
+<form action="../backend/ajouter_categoriedb.php" method="post" enctype='multipart/form-data'>
     <h2>Kategorie hinzufügen</h2><br/>Name<br/>
     <input type="text" name="cat" class="form" placeholder="Geben sSie die Kategorie ein" required>
 

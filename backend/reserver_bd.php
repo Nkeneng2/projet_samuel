@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['message']= " Enregistrement reussi! ";
 
                 //redirection ver la page index
-                header("location: index.php");
+                header("location: ../frontend/index.php");
             } else {
                 $error="<div class='error'> Veuillez reeassayer!, connexion a la base de donner interrompue </div>";
             }
