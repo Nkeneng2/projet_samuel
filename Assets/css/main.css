@@ -9,14 +9,6 @@ body {
     background: whitesmoke;
 }
 
-.nav a {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 .nav a.active {
     background: orchid;
     color: white;
@@ -144,9 +136,7 @@ button {
 }
 
 nav {
-    margin-top: 0;
-    padding: 0;
-    background-color: #372c3f;
+
 }
 
 #logo {
@@ -185,11 +175,6 @@ nav a {
     font-size: 17px;
     text-decoration: none;
 }
-
-nav a:hover {
-    background-color: orchid;
-}
-
 /* Media Queries
 --------------------------------------------- */
 
@@ -225,10 +210,10 @@ nav a:hover {
         display: block;
     }
 
-    nav ul li {
-        display: block;
-        width: 100%;
-    }
+    /*nav ul li {*/
+    /*    display: block;*/
+    /*    width: 100%;*/
+    /*}*/
 }
 
 table {
@@ -398,11 +383,7 @@ nav li{
     display: inline;
     margin-right: 40px;
 }
-a{
-    /*color: #777;*/
-    text-decoration: none;
-    font-family: arial, sans-serif;
-}
+
 #über uns{
     margin: auto;
 }
@@ -437,4 +418,33 @@ h1{
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+}
+nav a:hover{
+    color: lightgrey;
+}
+.header{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+}
+.category a:hover{
+    color: grey;
 }
