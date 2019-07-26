@@ -39,8 +39,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="60">
               <caret line="439" column="10" lean-forward="true" selection-start-line="439" selection-start-column="10" selection-end-line="439" selection-end-column="10" />
+=======
+            <state relative-caret-position="247">
+              <caret line="441" column="33" selection-start-line="441" selection-start-column="33" selection-end-line="441" selection-end-column="33" />
+>>>>>>> test
             </state>
           </provider>
         </entry>
@@ -196,15 +201,24 @@
       <workItem from="1562877706961" duration="1441000" />
       <workItem from="1562881927143" duration="4135000" />
       <workItem from="1562886773920" duration="1683000" />
+<<<<<<< HEAD
       <workItem from="1563996972429" duration="10969000" />
+=======
+      <workItem from="1563996972429" duration="10657000" />
+>>>>>>> test
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="18228000" />
+=======
+    <option name="totallyTimeSpent" value="17916000" />
+>>>>>>> test
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17944536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,7 +233,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.49376115" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19786096" />
+>>>>>>> test
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.56149733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -486,8 +504,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="439" column="10" lean-forward="true" selection-start-line="439" selection-start-column="10" selection-end-line="439" selection-end-column="10" />
+=======
+        <state relative-caret-position="247">
+          <caret line="441" column="33" selection-start-line="441" selection-start-column="33" selection-end-line="441" selection-end-column="33" />
+>>>>>>> test
         </state>
       </provider>
     </entry>

@@ -1,16 +1,17 @@
 <?php include "layout.php"; ?>
+    <br>
     <section>
-        <div id="über uns">
+        <div>
             <h1>Über uns</h1>
             <h2>Herzlich willkommen bei uns!<br>
             </h2>
         </div>
 
-        <div id="öffnungszeiten">
+        <div>
             <h4>Öffnungszeiten:</h4>
             <a><h5>Montag bis Freitag</h5></a>
             <p>9.00 bis 20.00 Uhr</p>
-            <a><h5>Samtag</h5></a>
+            <a><h5>Samstag</h5></a>
             <p>10.00 bis 18.00 Uhr</p>
 
 
