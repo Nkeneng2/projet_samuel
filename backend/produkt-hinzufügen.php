@@ -22,8 +22,8 @@ if (isset($_POST['nom']) && isset($_POST['prix'])) {
 
 //for ($i = 80; $i < 89; $i++) {
 //
-//    $array = ['arm', 'kette', 'schuhe'];
-//    $nom = "soleil" . $i;
+//    $array = ['sandales', 'mafia', 'kette','armband','schuhe'];
+//    $nom = "product" . $i;
 //    $prix = rand(200, 500);
 //    $name = $i . "." . "jpg";
 //    $value = array_rand($array, 1);

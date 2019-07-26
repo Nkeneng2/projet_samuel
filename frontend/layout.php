@@ -39,7 +39,7 @@ include("../backend/session.php");
         <?php } ?>
     </nav>
     <form action="research.php" method="Get" style="margin-right: 8px;">
-        <input type="text" placeholder="Search.." id="btn2" name="search">
+        <input type="text" placeholder="Search by name" id="btn2" name="search">
     </form>
 </div>
 
