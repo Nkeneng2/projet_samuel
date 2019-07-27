@@ -17,22 +17,21 @@ if (mysqli_num_rows($result) != 0){
         $array[] = $row;
         $image = $row['junior2_pic'];
         ?>
-        <div class="col"><a href=""><img src='../Assets/upload/<?php echo $image; ?>' class="pho"> </a>
+        <div class="col">
+            <img src='../Assets/upload/<?php echo $image; ?>'>
             <div class="col-body">
-                <h4 class="col-title">
-                    <div class="col-head"><a
-                                href=""><?php echo $row['junior2_nom'] ?></a> <?php echo $row['junior2_prix'] ?> €
+                <h4>
+                    <div class="col-head">
+                        <h2> <?php echo $row['junior2_nom'] ?></h2>
+                        <p> <?php echo $row['junior2_prix'] ?> €</p>
                     </div>
                 </h4>
-                <p><a>
-                        <div class='catt'>
-                            <?php
-                            echo $row['junior2_cat'];
-                            ?></div>
-                    </a>
-                </p>
-                <?php echo "<a href='modifier_objet.php?id=" . $row['junior2_id'] . "'><button class='su' type='submit' > Bearbeiten</button></a>"; ?>
-                <?php echo "<a href='supprimer_objet.php?id=" . $row['junior2_id'] . "' onclick='return checkDelete()'><button class='sub' type='submit' > Löschen</button></a>"; ?>
+                <p><?php echo $row['junior2_cat']; ?> </p>
+                <div class="btn">
+                    <a class="button" href="modifier_objet.php?id=<?php echo $row['junior2_id'] ?>">modify</a>
+                    <button type="button" onclick="produktentfernen(<?php echo $row['junior2_id']; ?>)">delete
+                    </button>
+                </div>
             </div>
         </div>
     <?php } ?>

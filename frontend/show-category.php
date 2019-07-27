@@ -1,18 +1,17 @@
 <?php
 include "layout.php";
 $search = $_GET['cat'];
-//$search = "luxx";
 $query = "SELECT * FROM junior2_product WHERE junior2_cat='$search'";
 $result = mysqli_query($db, $query);
-//var_dump($result);
-while ($row = mysqli_fetch_assoc($result)) {
-    $array[] = $row;
-    $image = $row['junior2_pic'];
-    ?>
-    <div class="break">
+?>
+<div class="break">
 
-        <div class="row">
-
+    <div class="row">
+        <?php
+        while ($row = mysqli_fetch_assoc($result)) {
+            $array[] = $row;
+            $image = $row['junior2_pic'];
+            ?>
             <div class="col"><a href=""><img src='../Assets/upload/<?php echo $image; ?>' class="pho"> </a>
                 <div class="col-body">
                     <h4 class="col-title">
@@ -20,16 +19,11 @@ while ($row = mysqli_fetch_assoc($result)) {
                             <?php echo $row['junior2_prix'] ?> €
                         </div>
                     </h4>
-                    <p><a>
-                            <div class='catt '>
-                                <?php
-
-                                //while($row = mysql_fetch_array($query)){
-                                echo $row['junior2_cat'];
-                                // }
-
-                                ?></div>
-                        </a></p>
+                    <p style="text-align: center">
+                        <?php
+                        echo $row['junior2_cat'];
+                        ?>
+                    </p>
                     <!---Redirection ver la page  de modifier objet----------->
                     <?php echo "<a href='modifier_objet.php?id=" . $row['junior2_id'] . "'><button class='su' type='submit' > Bearbeiten</button></a>"; ?>
 
@@ -46,8 +40,8 @@ while ($row = mysqli_fetch_assoc($result)) {
                 </div>
 
             </div>
-<?php } ?>
-            <br>
-        </div>
-<?php include "footer.php"?>
+        <?php } ?>
+        <br>
+    </div>
+    <?php include "footer.php" ?>
 

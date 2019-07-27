@@ -1,5 +1,7 @@
 <?php
-include "layout.php";
+include "layout.php"; ?>
+<br>
+<?php
 
 $connect = new PDO("mysql:host=localhost;dbname=shoe", "root", "root");
 
@@ -14,28 +16,29 @@ $result = $statement->fetchAll();
 $total_row = $statement->rowCount();
 
 $output = '
-<h4 align="center">Anzahl produkten- ' . $total_row . '</h4><div class="break" >
+<h2 style="text-align: center;color: red;">Anzahl produkten- ' . $total_row . '</h2><div class="break" >
 
 <div class="row" >';
 if ($total_row > 0) {
     foreach ($result as $row) {
         $output .= '
-        
-        
-                    
-		        <div class="col">
-                    <img src="../Assets/upload/' . $row["junior2_pic"] . '" class="pho" />
-                    <div class="col-body">
-                        <h4 class="col-title" >
+                  <div class="col">
+                <img src=\'../Assets/upload/'. $row["junior2_pic"].'\'>
+                <div class="col-body">
+                    <h4>
                         <div class="col-head">
-                            <h4 align="center">' . $row["junior2_nom"] . '
+                            <h2>'.$row["junior2_nom"].'</h2>
+                            <p>'.$row["junior2_prix"].' €</p>
                         </div>
-                        </h4>
-				        <h3 align="center" class="text-danger">' . $row["junior2_prix"] . ' €</h3>
-                        <br />
+                    </h4>
+                    <p>'.$row["junior2_cat"].' </p>
+                    <div class="btn">
+                        <a class="button" href="modifier_objet.php?id='.$row["junior2_prix"].'">modify</a>
+                        <button type="button" onclick="produktentfernen('.$row["junior2_id"].' )">delete
+                        </button>
                     </div>
                 </div>
-          
+            </div>
 		';
     }
 } else {

@@ -6,9 +6,7 @@ $maximum_range = 350;
 include("layout.php");
 ?>
 <div class="container">
-    <br/>
-    <br/>
-    <br/>
+    <br>
     <h3 align="center">Filtern Produkten nach Preis</a></h3><br/>
     <br/>
     <form action="filtre_db.php" method="post">
