@@ -8,11 +8,17 @@
 <div id="resultat">
 </div>
 <div class="all">
-    <?php include("../backend/connexiondb.php"); ?>
-    <form action=" " method="post">
+    <form action="../backend/connexiondb.php" method="post">
         <h2>login</h2>
         <div class="container">
-            <?php echo $error; ?><br/>
+            <br>
+            <p>
+                <?php
+                include "../backend/bd.php";
+                if (isset($_GET['type']) && isset($_GET['message'])) {
+                    Notification($_GET['message'], $_GET['type']);
+                } ?>
+            </p>
             <label for="uname"><b>user</b></label>
             <input type="text" placeholder="pseudo" name="nom" id="nom" required>
             <br/>

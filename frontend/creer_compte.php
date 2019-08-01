@@ -5,15 +5,20 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/login.css'>
 </head>
 <body>
-<div id="resultat">
-</div>
+<!--<div id="resultat">-->
+<!--</div>-->
 <div class="all">
-    <?php include("../backend/creer_comptedb.php"); ?>
-
-    <form action=" " method="post">
+    <form action="../backend/creer_comptedb.php" method="post">
         <h2>Create account</h2>
         <div class="container">
-            <?php echo $error; ?><br/>
+            <br>
+            <p>
+                <?php
+                include "../backend/bd.php";
+                if (isset($_GET['type']) && isset($_GET['message'])) {
+                    Notification($_GET['message'],$_GET['type']);
+                }?>
+            </p>
             <label for="uname"><b>user</b></label>
             <input type="text" placeholder="pseudo" name="nom" id="nom" required>
             <br/>
