@@ -2,20 +2,17 @@
     <br>
     <section>
         <div>
-            <h1>Über uns</h1>
-            <h2>Herzlich willkommen bei uns!<br>
+            <h1>About us</h1>
+            <h2>Welcome<br>
             </h2>
         </div>
-
         <div>
-            <h4>Öffnungszeiten:</h4>
-            <a><h5>Montag bis Freitag</h5></a>
-            <p>9.00 bis 20.00 Uhr</p>
-            <a><h5>Samstag</h5></a>
-            <p>10.00 bis 18.00 Uhr</p>
-
-
-            <p>Zwischen Weihnachten und Neujahr bleibt unser Geschäft geschlossen.</p>
+            <h4>open hours:</h4>
+            <a><h5>monday - Friday</h5></a>
+            <p>9.00 to 20.00 Uhr</p>
+            <a><h5>saturday</h5></a>
+            <p>10.00 to 18.00 Uhr</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
         </div>
         <div id="location">
             <h4>Location:</h4>
@@ -25,5 +22,4 @@
             </p>
         </div>
     </section>
-
 <?php include "footer.php" ?>

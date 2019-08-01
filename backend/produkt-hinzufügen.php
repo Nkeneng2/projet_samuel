@@ -16,7 +16,7 @@ if (isset($_POST['nom']) && isset($_POST['prix'])) {
     echo $checkbox->addtoDatabase($nom, $prix, $name, $values);
 
 } else {
-    echo "Veuillez remplire toutes les champs ";
+    echo "please fill all the blank spaces";
 }
 
 

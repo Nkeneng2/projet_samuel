@@ -1,8 +1,8 @@
 <?php
 include "layout.php";
 ?>
-    <br/> <br/> <br/> <br/> <br/> <br/>
-    <h2 align="center">Produkt bearbeiten</h2>
+    <br/>
+    <h2>modify productn</h2>
     <div class="check">
         <form action="../backend/produkt-bearbeiten.php" method="post" enctype='multipart/form-data'>
             <br/>
@@ -19,9 +19,9 @@ include "layout.php";
                            value="<?php echo $row['junior2_prix']; ?>" required/><br/>
                     <input type="hidden" name="id" value="<?php echo $id; ?>">
                     <br/>
-                    <p>Bild</p>
+                    <p>image</p>
                     <input type='file' name='file' required/><br/>
-                    <p>Kategorien</p>
+                    <p>Category</p>
                     <?php
                 }
             }
@@ -36,8 +36,8 @@ include "layout.php";
                 <?php
             } ?>
             <br/><br/><br/>
-            <input class="button1" type="submit" id="submit" name="submit" value="Speichern"/>
+            <input class="button1" type="submit" id="submit" name="submit" value="Save"/>
         </form>
     </div>
-    <br/> <br/> <br/> <br/> <br/>
+    <br/>
 <?php include "footer"; ?>

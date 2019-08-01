@@ -7,7 +7,7 @@ include("layout.php");
 ?>
 <div class="container">
     <br>
-    <h3 align="center">Filtern Produkten nach Preis</a></h3><br/>
+    <h3>Filter by price</a></h3><br/>
     <br/>
     <form action="filtre_db.php" method="post">
         <div class="row">
@@ -21,11 +21,10 @@ include("layout.php");
                    value="<?php echo $maximum_range; ?>"/>
         </div>
         <br/>
-        <input type="submit" name="submit" id="button" value="filtre prix"/>
+        <input type="submit" name="submit" id="button" value="price filter"/>
     </form>
     <br/>
     <div id="load_product"></div>
     <br/>
-
 <?php include "footer.php"; ?>
 

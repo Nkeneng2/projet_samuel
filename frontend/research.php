@@ -1,7 +1,6 @@
 <?php
-include "layout.php";
-?>
-    <br/> <br/> <br/> <br/> <br/> <br/>
+include "layout.php"; ?>
+    <br/>
     <div class="break">
     <div class="row">
 <?php
@@ -39,6 +38,6 @@ if (mysqli_num_rows($result) != 0){
     </div>
 <?php }
 else {
-    echo "<div class='errorsearch'>Kein Produkt</div>";
+    echo "<div class='errorsearch'>no product</div>";
 } ?>
 <?php include "footer.php" ?>

@@ -5,7 +5,6 @@ $query = "SELECT * FROM junior2_product WHERE junior2_cat='$search'";
 $result = mysqli_query($db, $query);
 ?>
 <div class="break">
-
     <div class="row">
         <?php
         while ($row = mysqli_fetch_assoc($result)) {

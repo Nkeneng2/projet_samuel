@@ -2,7 +2,6 @@ body {
     font-family: sans-serif;
     background-size: 100%;
 }
-
 form {
     max-width: 100%;
     background: whitesmoke;
@@ -10,7 +9,6 @@ form {
     margin-left: 30%;
     margin-right: -20%;
 }
-
 .error {
     color: red;
     background: rgb(248, 157, 157);
@@ -21,11 +19,9 @@ form {
     border-radius: 5px;
     border-width: 1000px;
 }
-
 form h2 {
     color: orchid;
 }
-
 .all {
     float: center;
     text-align: center;
@@ -48,7 +44,6 @@ input[type=password] {
 h2 {
     color: white;
 }
-
 button {
     background-color: orchid;
     color: white;
@@ -59,15 +54,12 @@ button {
     width: 20%;
     border-radius: 5%;
 }
-
 button:hover {
     opacity: 0.8;
 }
-
 a {
     text-decoration: none;
 }
-
 .container {
     padding: 16px;
 }
