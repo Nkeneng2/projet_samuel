@@ -12,7 +12,7 @@
     border: none;
 }
 
-button {
+a button {
     float: right;
     padding: 15px 19px;
     margin-top: 8px;
@@ -224,7 +224,7 @@ th {
 
 #btn2 {
     margin-right: 0px;
-    margin-left: 1;
+    /*margin-left: 1;*/
 }
 
 .dis {
@@ -366,7 +366,7 @@ nav a:hover {
 .category a {
     text-decoration: none;
     color: black;
-    font-weight: 550;
+    /*font-weight: 550;*/
 }
 
 .category a:hover {
@@ -434,4 +434,29 @@ button {
 }
 .filter{
     margin: 3px 0;
+}
+/*login form*/
+
+.card-form-login{
+    margin: 50px auto;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.form-login{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-login-input{
+    height: 30px;
+    width: 100%;
+}
+.form-login-button{
+    height: 30px;
+    margin: auto;
+    background: lightblue;
 }

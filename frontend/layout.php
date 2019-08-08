@@ -6,7 +6,10 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+<!--    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/login.css'>-->
+
     <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/main.css'>
+
     <title>Mypage</title>
 </head>
 <body>

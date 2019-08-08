@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' type='text/css' media='screen' href='../Assets/css/login.css'>
-</head>
-<body>
-<!--<div id="resultat">-->
-<!--</div>-->
-<div class="all">
-    <form action="../backend/creer_comptedb.php" method="post">
-        <h2>Create account</h2>
-        <div class="container">
-            <br>
-            <p>
-                <?php
-                include "../backend/bd.php";
-                if (isset($_GET['type']) && isset($_GET['message'])) {
-                    Notification($_GET['message'],$_GET['type']);
-                }?>
-            </p>
-            <label for="uname"><b>user</b></label>
-            <input type="text" placeholder="pseudo" name="nom" id="nom" required>
-            <br/>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="mots de passe" name="passworde" id="pass" required>
-            <br/>
-            <label for="psw"><b>Confirm password</b></label>
-            <input type="password" placeholder="confirmer mots de passe" name="confirmpassword" required>
-            <br/>
-            <button type="submit">Login</button>
-        </div>
-        <span class="psw">Already member?<a href="connexion.php">Login</a></span>
-        <br/><br/>
+<?php include "layout.php" ?>
+<div class="card-form-login">
+    <h1>Create account</h1>
+    <form action="../backend/creer_comptedb.php" class="form-login" method="post">
+        <input type="text" name="nom" placeholder="username" class="form-login-input" required>
+        <input type="password" name="passworde" placeholder="password" class="form-login-input" required><br>
+        <input type="password" name="confirmpassword" placeholder="Confirm password" class="form-login-input" required><br>
+        <button class="form-login-button" type="submit">Submit</button>
     </form>
-
+    <p>already member ? <a href="connexion.php">Log in</a></p>
 </div>
-</body>
-</html>
+<?php include "footer.php"; ?>
