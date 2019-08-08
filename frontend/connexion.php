@@ -8,3 +8,4 @@
     </form>
     <p> not member ? <a href="creer_compte.php">Sign in</a></p>
 </div>
+<?php include "footer.php"?>
