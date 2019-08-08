@@ -1,19 +1,17 @@
 <?php
+
 include "bd.php";
-if (isset($_POST['cat'])) {
 
+if (preg_match('#[a-zA-Z]+$#',$_POST['cat'])){
     $nom = $db->real_escape_string($_POST['cat']);
-
 
     $sql = "INSERT INTO  junior2_category(junior2_nom) VALUES ('$nom') ";
 
     if (mysqli_query($db, $sql)) {
-
-        header("location: ../frontend/categorie.php");
+        header("location: ../frontend/categorie.php?type=success&message=category-added-succesfully");
     } else {
-        echo "Veuillez réessayez, Connection a la base de donner interrompue ";
+        header("location: ../frontend/ajouter_categorie.php?type=error&message=problem-encountered");
+        preg_match('#^[a-z]#',$_POST['cat']);
     }
-} else {
-    echo "Veuillez entrez une categorie";
 }
-?>
+else  header("location: ../frontend/ajouter_categorie.php?type=error&message=invalid-category");

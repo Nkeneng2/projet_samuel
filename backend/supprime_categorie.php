@@ -1,7 +1,5 @@
 <?php 
-
-   //appeller la base de donner
-   include("bd.php");
+ include("bd.php");
    $id = $_GET['id'];
     if($id>0){
       
@@ -16,9 +14,6 @@
       else {
       echo "Veuillez reessayer! connexion a la base de donner interrompue. Categorie non Supprimer";
       }
-      
-
     }
-    
  ?>
             

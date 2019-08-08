@@ -1,8 +1,5 @@
 <?php 
-
-//conexion a la base de donner des toutes les objet
 require_once 'ajout_objetdb.php';
-
 class checkbox extends connectionClass
 {
     public function addtoDatabase($nom, $prix, $name, $value,$id=0)
@@ -13,7 +10,7 @@ class checkbox extends connectionClass
             if ($result) {
                 header('location: ../frontend/index.php');
             } else {
-                return "Veuillez reessayer!, connexion a la base de donner interrompue";
+                return "connection disrupted";
             }
         }
     }

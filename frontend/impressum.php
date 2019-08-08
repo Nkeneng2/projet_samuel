@@ -1,86 +1,53 @@
 <?php include "layout.php"; ?>
-<!--    <section>-->
-        <div id="impressum">
-            <h1>Impressum</h1>
+    <!--    <section>-->
+    <div id="impressum">
+        <h1>Impressum</h1>
 
-            <h2>Angaben gemäß § 5 TMG</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
 
-            <p>
-                Nikita <br>
-                Lora Nyami Tankeu<br>
-                Treskowalle 8<br>
-                10318 berlin <br>
-                Vertreten durch: <br>
-                Lora Nyami <br>
-                Kontakt: <br>
-                Telefon: %2B4917674203790-%2B4917674203790 <br>
-                E-Mail: afriafrikafashion@yahoo.de <br>
+        <p>
+            Lorem <br>
+            Lorem ipsum dolor.<br>
+            lorem 44<br>
+            10318 lorem <br>
+        </p>
+        <h2>lorem ipsum : </h2>
 
+        <h3>Lorem ipsum dolor.</h3>
 
-                Umsatzsteuer-ID:
-                Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: 13427265
-            </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aut commodi consequatur debitis deleniti
+            dolore doloremque doloribus eius enim esse et, excepturi expedita fugiat inventore ipsam magni nisi nobis
+            possimus, quia reiciendis rerum sit veritatis? Consectetur distinctio ex exercitationem fugiat, incidunt
+            ipsa laborum, maxime modi nesciunt, officia omnis optio quae rem repudiandae sed? Accusamus delectus
+            necessitatibus nihil quos vitae?
+        </p>
 
-            <p>
-                Wirtschafts-ID:
-
-                Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-                Lora Nyami
-                Treskowalle 8
-                10318 berlin
-            </p>
-
-            <h2>Haftungsausschluss: </h2>
-
-            <h3>Haftung für Inhalte</h3>
-
-            <p>
-                Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit
-                und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß
-                § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§
-                8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte
-                fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
-                hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den
-                allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem
-                Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
-                Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
-            </p>
-
-            <h3>Haftung für Links</h3>
-            <p>
-                Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
-                Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
-                verlinkten
-                Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
-                wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren
-                zum
-                Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten
-                ist
-                jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von
-                Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-            </p>
+        <h3>Lorem ipsum dolor.</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error laboriosam modi pariatur praesentium quo.
+            Adipisci architecto fugit hic sint. Aliquam, culpa dicta fuga quidem quo repellat reprehenderit. Aliquid et
+            eveniet impedit in ipsam natus nihil, nobis perferendis quod ut! Alias at consequatur dolore, dolores eius
+            eum facere nesciunt possimus repellat saepe! Adipisci, dolorum fugit, hic, in iste libero magnam officia rem
+            sint suscipit ullam vel voluptate.
+        </p>
 
 
-            <h3>Google Analytics</h3>
+        <h3>Google Analytics</h3>
 
-            <p>
-                Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (''Google''). Google
-                Analytics verwendet sog. ''Cookies'', Textdateien, die auf Ihrem Computer gespeichert werden und die
-                eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten
-                Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server
-                von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre
-                Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber
-                zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene
-                Dienstleistungen zu erbringen.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque dicta in incidunt ipsum rem sequi
+            tenetur. Itaque minima, officiis praesentium quis recusandae voluptas? A aliquam amet distinctio dolore
+            dolorem, doloremque doloribus dolorum, ducimus eaque est fuga laboriosam laborum, odit officiis perferendis
+            provident qui reprehenderit sequi veritatis voluptate. Adipisci alias consequatur et exercitationem harum
+            illo inventore ipsa natus neque nobis nostrum, odit repellat tempora ut vitae! Cumque iste laudantium
+            libero.</p>
 
 
-            <h3>Google AdSense</h3>
-            <p>Extras > Internetoptionen > Datenschutz > Einstellung''; im Firefox unter ''Extras > Einstellungen >
-                Datenschutz > Cookies''); wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht
-                sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website
-                erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor
-                beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.
-            </p>
-        </div>
+        <h3>Google AdSense</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nesciunt officiis quasi repellendus similique
+            tenetur. At corporis deleniti deserunt, dolorem eaque earum esse ex, hic ipsum ratione reiciendis vel vero.
+        </p>
+    </div>
     </section>
 <?php include "footer.php"; ?>

@@ -1,10 +1,5 @@
 <?php
- 
 $error='';
-?>
-
-<?php 
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['submit'])) {
         if (isset($_POST['article']) && isset($_POST['nom']) && isset($_POST['message'])) {
@@ -20,13 +15,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 //redirection ver la page index
                 header("location: ../frontend/index.php");
             } else {
-                $error="<div class='error'> Veuillez reeassayer!, connexion a la base de donner interrompue </div>";
+                $error="<div class='error'>Connection interrupted </div>";
             }
         }
          else {
-            $error="<div class='error'>Veuillez remplir toute les champs!</div>";
+            $error="<div class='error'>Please fill all blank spaces</div>";
         }
     }
-} 
-
+}
 ?>
