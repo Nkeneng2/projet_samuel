@@ -5,7 +5,7 @@ To see the website go to the address   junior2.webloupe.de
 or if you want to have the project on your pc just read the following instruction:
 
 1) clone the project with the git command      git clone https://github.com/Nkeneng2/projet_samuel.git
-2) copy the code presents in the file db.sql , then create the database " shoe" and paste the code into it
+2) copy the code presents in the file db.sql , then create the database "junior2_shoe" and paste the code into it
 3)modify the files bd.php and ajout_objetdb.php by adding the user credentials of your mysql account
 4) open the directory in your browser
  #thanks
